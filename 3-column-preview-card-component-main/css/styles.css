@@ -1,0 +1,71 @@
+/* Utility Classes */
+
+.btn {
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 40px;
+    padding: 15px 40px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    /* margin-bottom: 48px; */
+    margin-top: 48px;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 40px;
+    margin-bottom: 28px;
+    width: 223px;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-width: 325px;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+.card-section {
+    
+    min-height: 300px;
+    padding: 45px 50px 45px 50px;
+}
+
+/* Sedans */
+#sedans {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#sedans a {
+    color: hsl(31, 77%, 52%);
+}
+
+/* Suvs */
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suvs a {
+    color: hsl(184, 100%, 22%);
+}
+/* Luxury */
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+#luxury a {
+    color: hsl(179, 100%, 13%);
+}

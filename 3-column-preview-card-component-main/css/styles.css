@@ -51,6 +51,11 @@ p {
     color: hsl(31, 77%, 52%);
 }
 
+#sedans a:hover {
+    background-color: hsl(31, 100%, 50%);
+    color: #ffffff;
+}
+
 /* Suvs */
 #suvs {
     background-color: hsl(184, 100%, 22%);
@@ -58,6 +63,11 @@ p {
 
 #suvs a {
     color: hsl(184, 100%, 22%);
+}
+
+#suvs a:hover {
+    background-color: hsl(184, 98%, 17%);
+    color: #ffffff;
 }
 /* Luxury */
 #luxury {
@@ -68,4 +78,9 @@ p {
 
 #luxury a {
     color: hsl(179, 100%, 13%);
+}
+
+#luxury a:hover {
+    background-color: hsl(185, 100%, 10%);
+    color: #ffffff;
 }

@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%)
+    
+    
+}
+.card{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius: 5%;
+    max-width: 350px;
+    height: 400px;
+    margin: 180px auto 60px auto;
+    background-color: #ffffff;
+    
+        
+
+}
+
+/* Card Top */
+.card-top {
+    width: 100%;
+    background:
+        url('images/bg-pattern-card.svg')
+        top center
+        no-repeat;
+
+    flex: 2;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+
+/* Card Middle  */
+.card-middle {
+    width: 100%;
+    text-align: center;
+    flex: 2
+    z-index
+}
+
+
+.profile-img {
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+
+.profile-details {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 0 25px 25px 25px;
+}
+
+.name {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.profile-details .location {
+    margin-top: 15px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+
+/* Card Bottom */ 
+
+.card-bottom {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.profile-stats {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border-top: lightgray 1px solid;
+    flex: 1;
+}
+
+.profile-stats .stat-item {
+    margin: 10px;
+    padding: 10px;
+}
+
+.stat-number {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.profile-stats .stat-category {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.7rem;
+}

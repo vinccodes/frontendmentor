@@ -1,0 +1,48 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    /* Fonts */
+    --ff-body: 'Karla', sans-serif;
+
+    /* Colors */
+    --clr-dark-violet: hsl(256, 26%, 20%);
+    --clr-grayish-blue: hsl(216, 30%, 68%);
+    --clr-white: #ffffff;
+}
+
+body {
+    font-family: var(--ff-body);
+    margin: 0;
+}
+
+
+
+/* navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    
+}
+
+.nav__menu .nav__menu--link {
+    text-decoration: none;
+    color: var(--clr-grayish-blue);
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.nav__menu .nav__menu--link:hover {
+    border: 1px solid var(--clr-dark-violet);
+    background-color: var(--clr-dark-violet);
+    color: var(--clr-white);
+}
